@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Calculadora Lógica</title>
+		<script type="text/javascript" src="js/ast.js"></script>
+		<script type="text/javascript" src="js/core.js"></script>
+		<script type="text/javascript" src="js/parser.js"></script>
+		<script type="text/javascript" src="js/renderer.js"></script>
+		<script type="text/javascript" src="js/scanner.js"></script>
+		<script type="text/javascript" src="js/truth-table.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<div class="content">
+			<h1 class="title">
+				Calculadora Lógica Proposicional
+			</h1>
+			<p class="overview">
+				Essa ferramenta gera tabelas verdades para fórmulas de lógica Proposicional.
+				Ferramenta desenvolvida para cadeira de Res Problemas Natureza Discreta. <br><br>
+				Equipe:<br>
+				Adauto (2210446),<br>
+				Vitor (2217301),<br>
+				Luiz Henrique (2210078),<br>
+				Alternandes (2012554).<br><br>
+				Unifor - Universidade de Fortaleza, 2023.2
+			</p>
+			<p>
+				<input id="expressionInput" type="text" oninput="go();" placeholder="Escreva a fórmula"/>
+			</p>
+			<div id="table-target">
+				<!-- As tabelas verdade são geradas aqui -->
+			</div>
+		</div>
+	</body>
+</html>
